@@ -1,11 +1,10 @@
-
 * {
   box-sizing: border-box;
 }
 
 body {
   background-color: #0e0e2c;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Arial, sans-serif;
   color: #fff;
   margin: 0;
   padding: 0;
@@ -14,19 +13,18 @@ body {
 .container {
   max-width: 500px;
   margin: 50px auto;
-  background-color: #1c1c3c;
-  padding: 30px 40px;
+  background: #1a1a3d;
+  padding: 30px;
   border-radius: 10px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0 15px #000;
 }
 
-form h1 {
+h1 {
   text-align: center;
   margin-bottom: 10px;
-  font-size: 24px;
 }
 
-form p {
+p {
   text-align: center;
   font-size: 14px;
   color: #ccc;
@@ -44,14 +42,10 @@ textarea {
   margin-bottom: 16px;
   border: none;
   border-radius: 5px;
-  background-color: #2a2a4a;
-  color: #fff;
 }
 
 input[type="file"] {
-  margin-top: 8px;
   margin-bottom: 16px;
-  color: #fff;
 }
 
 textarea {
@@ -62,7 +56,7 @@ textarea {
 button {
   background-color: #fff;
   color: #000;
-  padding: 10px;
+  padding: 10px 20px;
   border: none;
   width: 100%;
   cursor: pointer;
@@ -76,16 +70,14 @@ button:hover {
 
 label {
   display: block;
-  margin-bottom: 8px;
-}
-
-.checkbox {
-  font-size: 13px;
   margin-top: 10px;
 }
 
-.checkbox input {
-  margin-right: 5px;
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
 }
 
 .privacy {
@@ -95,8 +87,3 @@ label {
   margin-bottom: 20px;
 }
 
-hr {
-  border: none;
-  border-top: 1px solid #444;
-  margin: 20px 0;
-}
